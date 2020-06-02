@@ -1,4 +1,4 @@
-function weather() {
+function getWeather() {
   let temperature = document.getElementById("temperature");
   let description = document.getElementById("description");
   let location = document.getElementById("location");
@@ -41,4 +41,4 @@ function weather() {
   }
 }
 
-weather();
+getWeather();
